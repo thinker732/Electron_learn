@@ -6,6 +6,8 @@ const url=require('url')
 const path=require('path')
 
 BrowserWindow.nodeIntegration=true
+BrowserWindow.contextIsolation=false
+
 let win,win1,win2;
 
 //fonction de creation des fenetres
